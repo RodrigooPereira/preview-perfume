@@ -156,19 +156,25 @@ a:hover {
         border-bottom-right-radius: 15px;
         border-top-right-radius: 0px;
         border-bottom-left-radius: 15px;
-        height: 65vh;
+        height: auto;
     }
     
     .texto {
-        height: 85%;
+        height: 100%;
+    }
+
+    .titulo {
+        margin-top: 20px;
     }
 
     h1 {
         overflow-y: hidden;
+        font-size: 28px;
     }
 
     .cta {
-        height: 16%;
+        height: 45px;
+        margin-bottom: 30px;
     }
 
 }
